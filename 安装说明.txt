@@ -1,0 +1,13 @@
+安装说明:
+ 环境要求 
+ 1 建议使用phpstudy2018老版
+ 2 php版本5.4.45
+ 3 mysql 5.7
+ 4 将程序包解压到phpstudy网站根目录
+ 5 将sql文件导入数据库,数据库名welive 默认用户名密码 root 修改db目录下的PDO.class.php文件中配置,修改 weilive1\config\config.php配置为自己的数据库信息
+ 6 添加环境变量将php5.4.45目录添加到环境变量
+ 7 php.int打开php_sockets.dll扩展
+ 8 双击workerman-chat目录下的start_for_win启动服务,启动后不关闭窗口
+ 9 浏览器输入http://localhost/workerman-chat/Applications/Chat/Web/index.php 可以进入聊天页面
+ 10 后台 http://localhost/weilive1/admin/index.php 管理员账号 admin 密码 123456
+ 
